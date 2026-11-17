@@ -5,6 +5,7 @@ pipeline {
       
       steps {
         echo 'Build Stage'
+        echo "${repoURL}"
         sh 'sleep 60'
       }
     }
